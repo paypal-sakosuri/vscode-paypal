@@ -1,0 +1,35 @@
+name: Feature Request - PayPal AI Assistant
+description: Suggest a new feature or improvement for the PayPal AI Assistant
+labels: ["feature", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a feature for the PayPal AI Assistant! Please describe what you'd like to see.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: Describe the use case or pain point
+      placeholder: "Example: As a PayPal developer, I need better guidance for upgrading from JS SDK v5 to v6..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Describe your ideal solution
+      description: How would you like this to work?
+      placeholder: "Example: Add PayPal AI Assistant support for JS SDK v5 to v6 upgrades with code examples and breaking changes"
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives you've considered
+      description: What workarounds are you using today? (optional)
+      placeholder: "Example: Currently I manually reference the docs while coding"
+    validations:
+      required: false

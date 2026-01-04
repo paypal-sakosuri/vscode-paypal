@@ -1,0 +1,48 @@
+name: Bug Report - PayPal AI Assistant
+description: Report a bug or unexpected behavior with the PayPal AI Assistant
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug with the PayPal AI Assistant! Please fill out the sections below.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: A clear description of the bug with the PayPal AI Assistant
+      placeholder: "Example: The PayPal AI Assistant failed to generate upgrade code for my JS SDK v5 to v6 integration"
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: How can we reproduce this?
+      placeholder: |
+        1. Open PayPal AI Assistant panel
+        2. Select "Ask PayPal Assistant"
+        3. Enter prompt: [your prompt]
+        4. See error or unexpected behavior
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: What version of the PayPal extension & VS Code are you using?
+      placeholder: "e.g., PayPal extension v1.0.0, VS Code v1.85.0"
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Anything else we should know? (screenshots, error logs, AI responses, code samples)
+      placeholder: "Paste error logs, AI responses, or add screenshots here"
+    validations:
+      required: false
