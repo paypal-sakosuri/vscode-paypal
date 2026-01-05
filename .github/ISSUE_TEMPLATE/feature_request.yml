@@ -1,11 +1,11 @@
-name: Feature Request - PayPal AI Assistant
-description: Suggest a new feature or improvement for the PayPal AI Assistant
+name: Feature Request - PayPal Extension
+description: Suggest a new feature or improvement for the PayPal Extension
 labels: ["feature", "needs-triage"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for suggesting a feature for the PayPal AI Assistant! Please describe what you'd like to see.
+        Thanks for suggesting a feature for the PayPal Extension! Please describe what you'd like to see.
 
   - type: textarea
     id: problem
